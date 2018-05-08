@@ -1,13 +1,13 @@
-public class Customer implements Visitor{
+public class Customer {
 
     public String customer;
 
-    public String connect(){
-        return "connected";
+    public String wallet(){
+        return
     }
 
     public String tune(String data){
-        return "tuned into " + data;
+        return
     }
 
 }

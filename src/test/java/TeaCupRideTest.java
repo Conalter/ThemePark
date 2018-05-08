@@ -24,6 +24,6 @@ public class TeaCupRideTest {
 
     @Test
     public void getHeight(){
-        assertEquals(0.6, teaCupRide.getHeight());
+        assertEquals(0.6, teaCupRide.getHeight(),0.1);
     }
 }
